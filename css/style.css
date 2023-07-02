@@ -13,6 +13,21 @@ body{
     background-color: #FFFFFF;
 }
 
+::before, ::after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+ul {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
+}
+
     .link {
             text-decoration: none;
           }
@@ -20,11 +35,9 @@ body{
     .list {
             list-style-type: none;
         } 
-.mein-menu {
-        background: var(--white, #FFF);
-}
-        
-    .nav-manu {
+
+
+    .nav-menu {
         font-weight: 500;
         color: var(--main-color,#2E2F42);
         line-height: 1.5;
@@ -45,12 +58,57 @@ body{
             letter-spacing: 0.03em;
             text-transform: uppercase;
             color: var(--logo-color,#4D5AE5);
-            font-weight: 800;                   
+            font-weight: 800;                 
     }
 
     .highlight {
         color: var(--main-color);
     }
+        .header-content {
+            display: flex;
+            width: 1440px;
+            height: 72px;
+            justify-content: center;
+            align-items: center;
+            flex-shrink: 0;
+            border-bottom: 1px solid var(--cornflower, #E7E9FC);
+            background: var(--white, #FFF);
+        }
+        .menu {
+            display: flex;
+        }
+         .logotype {
+            display: inline-flex;
+                height: 24px;
+                align-items: center;
+                flex-shrink: 0;
+         }
+                 .logotype.logo {
+                    display: flex;
+                        width: 44px;
+                        flex-direction: column;
+                        justify-content: center;
+                 }
+                 .logotype.highlight {
+                                    display: flex;
+                                        width: 71px;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                 }
+
+         .menu-content {
+                    display: inline-flex;
+                        align-items: flex-start;
+                        gap: 40px;
+                        
+                        margin-right: 332px;
+                        margin-left: 76px;
+                 }
+         .contacts-content {
+                    display: inline-flex;
+                    gap: 40px;
+
+                 }
 
     .adress-item {
         color: var(--second-color, #434455);
@@ -61,9 +119,32 @@ body{
         .h-address {
             font-style: normal;
         }
+               
+                
+                  
 
 .solutions {
         background-color: var(--main-color,#2E2F42);
+ }
+
+ .hero {
+width: 1440px;
+    height: 600px;
+    flex-shrink: 0;
+ }
+ .text-title-1 {
+    display: flex;
+        width: 496px;
+        flex-direction: column;
+        flex-shrink: 0;
+        padding-top: 188px;
+        padding-bottom: 48px;
+        padding-left: 472px;
+        padding-right: 472px;
+ }
+ .bttn {
+    margin-left: 636px;
+    margin-right: 635px;
  }
       
      .eff-sol {
@@ -91,6 +172,24 @@ body{
     background-color: #404BBF;
 }
 
+.sect-cont {
+    width: 1440px;
+        height: 2592px;
+}
+  .first {  
+    width: 1128px;
+        height: 104px;
+        flex-shrink: 0;
+  }
+
+.fixed {
+display: flex;
+    width: 264px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    padding-left: 156px;
+}
 .points {
             font-weight: 500;
             font-size: 20px;
@@ -114,7 +213,16 @@ body{
     color: var(--main-color,#2E2F42);
     text-align: center;
 }
+.second {
+    width: 1440px;
+        
+} 
 
+   .order {
+display: inline-flex;
+flex-direction: column;
+align-items: flex-start;
+}
 .team {
     background: var(--cloud, #F4F4FD);
     letter-spacing: 0.02em;
@@ -123,8 +231,13 @@ body{
 .member {
     background-color: #FFFFFF;
 }
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
 
-.hero { 
+.down { 
     background: var(--main-color,#2E2F42);
     color: var(--cloud, #F4F4FD);
         line-height: 1.5;
