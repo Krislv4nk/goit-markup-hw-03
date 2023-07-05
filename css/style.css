@@ -338,10 +338,10 @@ background-color: #404BBF;
     border: 1px solid var(--cornflower);
     border-radius: 4px;
 }
-.type-01:focus {
+.type-b:focus {
     border: 1px solid transparent;
 }
-.type-01:hover {
+.type-b:hover {
     border: 1px solid transparent;
 }
 
