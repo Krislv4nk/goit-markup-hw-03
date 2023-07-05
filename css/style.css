@@ -82,12 +82,9 @@ img {
         }
         .menu {
             display: flex;
+            align-items: center;
         }
          .logotype {
-            display: inline-flex;
-                height: 24px;
-                align-items: center;
-                flex-shrink: 0;
                 margin-right: 76px;
          }
                  .logotype.logo {
@@ -117,7 +114,7 @@ img {
                     margin-right: 40px;
                  }
          .contacts-content {
-                    display: inline-flex;
+                    display: flex;
                     gap: 40px;
 
                  }
@@ -164,7 +161,7 @@ background-color: var(--logo-color);
 border-radius: 4px;
  }
       
-     .eff-sol {
+     .first-title {
          color: var(--white, #FFF);
          text-align: center;
          font-size: 56px;
