@@ -17,7 +17,7 @@
 
 <body>
 
-    <header class="main-menu">
+    <header class="main-menu accent">
         <div class="header-content container">
             <nav class="menu">
                 <div class="logotype">
@@ -25,9 +25,9 @@
                 </div>
                 <ul class="list">
                     <div class="menu-content">
-                        <li><a href="./index.html" class="link nav-menu">Studio</a></li>
-                        <li><a href="./portfolio.html" class="link nav-menu">Portfolio</a></li>
-                        <li><a href="" class="link nav-menu">Contacts</a></li>
+                        <li><a href="./index.html" class="link nav-menu callout">Studio</a></li>
+                        <li><a href="./portfolio.html" class="link nav-menu callout">Portfolio</a></li>
+                        <li class="zero"><a href="" class="link nav-menu callout">Contacts</a></li>
                     </div>
                 </ul>
             </nav>
@@ -35,7 +35,8 @@
                 <ul class="list">
                     <div class="contacts-content">
                         <li><a href="mailto:info@devstudio.com" class="adress-item link">info@devstudio.com</a></li>
-                        <li><a href="tel:+110001111111" class="adress-item link">+11 (000) 111-11-11</a></li>
+                        <li class="zero"><a href="tel:+110001111111" class="adress-item link">+11 (000) 111-11-11</a>
+                        </li>
                     </div>
                 </ul>
             </address>
@@ -43,25 +44,27 @@
     </header>
     <main>
         <section class="solutions hero">
-            <h1 class="eff-sol text-title-1">Effective Solutions
-                for Your Business</h1>
+            <div class="container">
+                <h1 class="eff-sol text-title-1">Effective Solutions
+                    for Your Business</h1>
 
-            <button type="button" class="click bttn">Order Service</button>
+                <button type="button" class="click bttn">Order Service</button>
+            </div>
         </section>
 
         <section class="section">
             <div class="container">
                 <h2 class="visually-hidden">features</h2>
                 <ul class="features list">
-                    <li>
-                        <h3 class="points">Strategy</h3>
+                    <li class="element">
+                        <h3 class="points indent">Strategy</h3>
 
                         <p class="point-text">Our goal is to identify the business
                             problem to walk away with the perfect and creative solution.</p>
                     </li>
 
-                    <li>
-                        <h3 class="points">Punctuality</h3>
+                    <li class="element">
+                        <h3 class="points indent">Punctuality</h3>
 
                         <p class="point-text">Bring the key message to the brand's audience for the best price
                             within
@@ -71,8 +74,8 @@
                         </p>
                     </li>
 
-                    <li>
-                        <h3 class="points">Diligence</h3>
+                    <li class="element">
+                        <h3 class="points indent">Diligence</h3>
 
                         <p class="point-text">Research and confirm brands that present the strongest digital growth
                             opportunities and minimize
@@ -80,8 +83,8 @@
                         </p>
                     </li>
 
-                    <li>
-                        <h3 class="points">Technologies</h3>
+                    <li class="element">
+                        <h3 class="points indent">Technologies</h3>
 
                         <p class="point-text">Design practice focused on digital experiences. We bring forth a deep
                             passion
@@ -93,14 +96,14 @@
             </div>
         </section>
 
-        <section class="section">
+        <section class="third-section">
             <div class="container">
                 <h2 class="title pict-title">What are we doing</h2>
-                <ul class="list pictures illustration">
+                <ul class="list pictures">
 
-                    <li><img src="./images/img-1.jpg" alt="computer" width="360"></li>
-                    <li><img src="./images/img-2.jpg" alt="screens" width="360"></li>
-                    <li><img src="./images/img-3.jpg" alt="phone" width="360"></li>
+                    <li class=" illustration"><img src="./images/img-1.jpg" alt="computer" width="360"></li>
+                    <li class=" illustration"><img src="./images/img-2.jpg" alt="screens" width="360"></li>
+                    <li class=" illustration"><img src="./images/img-3.jpg" alt="phone" width="360"></li>
 
                 </ul>
             </div>
@@ -110,28 +113,28 @@
             <div class="container">
                 <h2 class="title pict-title">Our Team</h2>
 
-                <ul class="list pictures avatar">
-                    <li class="member"><img src="./images/foto-1.jpg" alt="Product Designer" width="264">
-                        <div class="card avatar">
-                            <h3 class="points">Mark Guerrero</h3>
+                <ul class="list pictures">
+                    <li class="member avatar"><img src="./images/foto-1.jpg" alt="Product Designer" width="264">
+                        <div class="card">
+                            <h3 class="points indent">Mark Guerrero</h3>
                             <p class="point-text">Product Designer</p>
                         </div>
                     </li>
-                    <li class="member"><img src="./images/foto-2.jpg" alt="Frontend Developer" width="264">
-                        <div class="card avatar">
-                            <h3 class="points">Tom Ford</h3>
+                    <li class="member  avatar"><img src="./images/foto-2.jpg" alt="Frontend Developer" width="264">
+                        <div class="card">
+                            <h3 class="points indent">Tom Ford</h3>
                             <p class="point-text">Frontend Developer</p>
                         </div>
                     </li>
-                    <li class="member"><img src="./images/foto-3.jpg" alt="Marketing" width="264">
-                        <div class="card avatar">
-                            <h3 class="points">Camila Garcia</h3>
+                    <li class="member  avatar"><img src="./images/foto-3.jpg" alt="Marketing" width="264">
+                        <div class="card">
+                            <h3 class="points indent">Camila Garcia</h3>
                             <p class="point-text">Marketing</p>
                         </div>
                     </li>
-                    <li class="member"><img src="./images/foto-4.jpg" alt="UI Designer" width="264">
-                        <div class="card avatar">
-                            <h3 class="points">Daniel Wilson</h3>
+                    <li class="member  avatar"><img src="./images/foto-4.jpg" alt="UI Designer" width="264">
+                        <div class="card">
+                            <h3 class="point indents">Daniel Wilson</h3>
                             <p class="point-text">UI Designer</p>
                         </div>
                     </li>
@@ -141,11 +144,11 @@
     </main>
     <footer class="down down-cont">
         <div class="container">
-            <div class="logotype">
-                <a href="./index.html" class="logo link">Web
-                    <span class="down-logo">Studio</span>
-                </a>
-            </div>
+
+            <a href="./index.html" class="logo link mark">Web
+                <span class="down-logo">Studio</span>
+            </a>
+
             <p class="down-par down-text">Increase the flow of customers and sales for your business with digital
                 marketing &
                 growth

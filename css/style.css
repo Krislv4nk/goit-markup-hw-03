@@ -75,8 +75,10 @@ img {
             justify-content: center;
             align-items: center;
             flex-shrink: 0;
-            border-bottom: 1px solid var(--cornflower, #E7E9FC);
             background: var(--white, #FFF);
+        }
+        .accent {
+            border-bottom: 1px solid var(--cornflower,#E7E9FC);
         }
         .menu {
             display: flex;
@@ -86,6 +88,7 @@ img {
                 height: 24px;
                 align-items: center;
                 flex-shrink: 0;
+                margin-right: 76px;
          }
                  .logotype.logo {
                     display: flex;
@@ -99,14 +102,19 @@ img {
                                         flex-direction: column;
                                         justify-content: center;
                                  }
+                                 .callout{
+                                    padding: 24px 0;
+                                 }
+                                 .zero {
+                                    margin-right: 0;
+                                 }
 
          .menu-content {
                     display: inline-flex;
                         align-items: flex-start;
                         gap: 40px;
-                        
-                        margin-right: 332px;
-                        margin-left: 76px;
+                    margin-left: 0;
+                    margin-right: 40px;
                  }
          .contacts-content {
                     display: inline-flex;
@@ -135,6 +143,7 @@ img {
 width: 1440px;
     height: 600px;
     flex-shrink: 0;
+    padding: 188px 0;
  }
  .text-title-1 {
     display: flex;
@@ -147,8 +156,12 @@ width: 1440px;
         padding-right: 472px;
  }
  .bttn {
-    margin-left: 636px;
-    margin-right: 635px;
+min-width: 169px;
+display: block;
+height: 56px;
+border: none;
+background-color: var(--logo-color);
+border-radius: 4px;
  }
       
      .eff-sol {
@@ -157,6 +170,8 @@ width: 1440px;
          font-size: 56px;
          line-height: 1.07;
          letter-spacing: 0.02em;
+        max-width: 496px;
+        cursor: pointer;
         }
 .click {
                 background-color: #4D5AE5;
@@ -179,17 +194,18 @@ width: 1440px;
 
   .section {  
     width: 1128px;
-        padding-left: 156px;
-        padding-right: 156px;
-        padding-top: 120px;
+        padding: 120px 0;
+  }
+  .third-section {
+    padding-bottom: 120px;
   }
 
 .features {
 display: flex;
-gap: 24px;
-width: calc((100%-24px*3) / 4);
-    
-    
+gap: 24px; 
+} 
+.element {
+    width: calc((100%-24px*3) / 4);
 }
 .points {
             font-weight: 500;
@@ -198,6 +214,9 @@ width: calc((100%-24px*3) / 4);
             letter-spacing: 0.02em;
             color: var(--main-color,#2E2F42);
             text-align: center;
+}
+.indent {
+    margin-bottom: 8px;
 }
 .point-text {
     font-size: 16px;
@@ -216,10 +235,10 @@ width: calc((100%-24px*3) / 4);
     text-align: center;
 }
 .pict-title{
-    margin: 0 auto;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
     
 }
+
 .illustration {
     max-width: calc((100%-2*24) / 3);
 }
@@ -227,17 +246,17 @@ width: calc((100%-24px*3) / 4);
 .pictures {
 display: flex;
 gap: 24px;
-    padding-bottom: 120px;
 }
 .card {
     border-radius: 0px 0px 4px 4px;
         background: var(--white, #FFF);
         box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-        padding: 32px 0;
+        padding: 32px 16px;
         max-width: calc((100%-3*24) / 4);
 }
 .avatar{
     max-width: calc((100%-3*24) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 .team {
     background: var(--cloud, #F4F4FD);
@@ -260,15 +279,15 @@ gap: 24px;
         letter-spacing: 0.013em;
 }
 .down-cont {
-    width: 1440px;
-        height: 312px;
-        flex-shrink: 0;
-        padding-top: 101.5px;
-        padding-left: 15px;
+    padding: 100px 0;
 }
 
 .down-logo {
     color: var(--cloud,#F4F4FD);
+}
+.mark {
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .logotype.down-logo {
