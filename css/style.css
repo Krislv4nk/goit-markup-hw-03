@@ -70,12 +70,11 @@ img {
     }
         .header-content {
             display: flex;
-            width: 1440px;
-            height: 72px;
-            justify-content: center;
             align-items: center;
-            flex-shrink: 0;
-            background: var(--white, #FFF);
+        }
+        .main-menu {
+            padding-top: 24px ;
+            padding-bottom: 24px;
         }
         .accent {
             border-bottom: 1px solid var(--cornflower,#E7E9FC);
@@ -87,18 +86,6 @@ img {
          .logotype {
                 margin-right: 76px;
          }
-                 .logotype.logo {
-                    display: flex;
-                        width: 44px;
-                        flex-direction: column;
-                        justify-content: center;
-                 }
-                 .logotype.highlight {
-                                    display: flex;
-                                        width: 71px;
-                                        flex-direction: column;
-                                        justify-content: center;
-                                 }
                                  .callout{
                                     padding: 24px 0;
                                  }
@@ -108,15 +95,14 @@ img {
 
          .menu-content {
                     display: inline-flex;
-                        align-items: flex-start;
                         gap: 40px;
-                    margin-left: 0;
-                    margin-right: 40px;
                  }
          .contacts-content {
+            margin: 0 auto;
+                 }
+                 .inline {
                     display: flex;
                     gap: 40px;
-
                  }
 
     .adress-item {
@@ -137,21 +123,10 @@ img {
  }
 
  .hero {
-width: 1440px;
-    height: 600px;
     flex-shrink: 0;
     padding: 188px 0;
  }
- .text-title {
-    display: flex;
-        width: 496px;
-        flex-direction: column;
-        flex-shrink: 0;
-        padding-top: 188px;
-        padding-bottom: 48px;
-        padding-left: 472px;
-        padding-right: 472px;
- }
+ 
  .bttn {
 min-width: 169px;
 display: block;
@@ -159,6 +134,8 @@ height: 56px;
 border: none;
 background-color: var(--logo-color);
 border-radius: 4px;
+margin: 0 auto;
+margin-top: 48px;
  }
       
      .eff-sol {
@@ -169,6 +146,7 @@ border-radius: 4px;
          letter-spacing: 0.02em;
         max-width: 496px;
         cursor: pointer;
+        margin: 0 auto;
         }
 .click {
                 background-color: #4D5AE5;
@@ -190,7 +168,6 @@ border-radius: 4px;
 
 
   .section {  
-    width: 1128px;
         padding: 120px 0;
   }
   .third-section {
@@ -210,7 +187,6 @@ gap: 24px;
             line-height: 1.2;
             letter-spacing: 0.02em;
             color: var(--main-color,#2E2F42);
-            text-align: center;
 }
 .indent {
     margin-bottom: 8px;
@@ -220,7 +196,6 @@ gap: 24px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--second-color,#434455);
-    text-align: center;
 }
 
 .title {
@@ -246,10 +221,10 @@ gap: 24px;
 }
 .card {
     border-radius: 0px 0px 4px 4px;
-        background: var(--white, #FFF);
-        box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-        padding: 32px 16px;
-        width: calc((100% - 72px) / 4);
+background: var(--white, #FFF);
+box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+       padding-top: 32px;
+       padding-bottom: 32px;
 }
 .avatar{
     width: calc((100% - 72px) / 4);
@@ -259,6 +234,9 @@ gap: 24px;
     background: var(--cloud, #F4F4FD);
     letter-spacing: 0.02em;
     color: var(--main-color,#2E2F42);
+}
+.center {
+    text-align: center;
 }
 .member {
     background-color: #FFFFFF;
@@ -287,18 +265,11 @@ gap: 24px;
     margin-bottom: 16px;
 }
 
-.logotype.down-logo {
-    display: flex;
-        width: 71px;
-        flex-direction: column;
-        justify-content: center;
-}
+
 .down-text {
-    display: flex;
         width: 264px;
         flex-direction: column;
         flex-shrink: 0;
-        padding-top: 19px;
 }
 .down-par {
     letter-spacing: 0.02em;
