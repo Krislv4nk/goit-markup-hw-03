@@ -46,6 +46,7 @@ img {
         color: var(--main-color,#2E2F42);
         line-height: 1.5;
         letter-spacing: 0.02em;
+        display: block;
     }
     
     .link:hover {
@@ -72,10 +73,7 @@ img {
             display: flex;
             align-items: center;
         }
-        .main-menu {
-            padding-top: 24px ;
-            padding-bottom: 24px;
-        }
+        
         .accent {
             border-bottom: 1px solid var(--cornflower,#E7E9FC);
         }
